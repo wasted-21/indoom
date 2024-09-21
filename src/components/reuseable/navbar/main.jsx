@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-export default function Navbar(){
+export default function Navbar({setThemes}){
 
     const navigate = useNavigate();
 
@@ -19,7 +19,7 @@ export default function Navbar(){
         <AppBar position="static">
           <Toolbar> 
 
-            <Sidebar/>
+            <Sidebar setThemes={setThemes}/>
             <Typography
             variant="h6" 
             component="div"

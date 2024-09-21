@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,10 +6,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './style.css'
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 
 export default function Swipper() {
   return (
@@ -29,8 +27,20 @@ export default function Swipper() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Home</SwiperSlide>
-        <SwiperSlide>Offer</SwiperSlide>
+       
+        <SwiperSlide>
+          <img src="./assets/image/cars/car_comparison.png" alt="" />
+        </SwiperSlide>
+   
+
+        <SwiperSlide>
+
+          <img src="./assets/image/cars/car_maintenance.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+
+          <img src="./assets/image/cars/spare_parts_dealer.png" alt="" />
+        </SwiperSlide>
         <SwiperSlide>Slider</SwiperSlide>
 
       </Swiper>

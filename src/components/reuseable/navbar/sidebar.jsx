@@ -19,25 +19,27 @@ import CarCrashIcon from '@mui/icons-material/CarCrash';
 import BuildIcon from '@mui/icons-material/Build';
 import StoreIcon from '@mui/icons-material/Store';
 import SellIcon from '@mui/icons-material/Sell';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { Typography, Toolbar, Divider } from '@mui/material';
 
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { useTheme } from '@emotion/react';
 
 
-export default function Sidebar() {
-
-  const navigate = useNavigate();
-
+export default function Sidebar({setThemes}) {
+  //State to open and close sidebar
   const [open, setOpen] = React.useState(false);
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
-
+  //State to open and close support button in sidebar
   const [open2, setOpen2] = React.useState(false);
   const handleClick = () => {
     setOpen2(!open2);
   };
+  
+  const theme = useTheme()
 
   return (
     <div>
@@ -54,8 +56,15 @@ export default function Sidebar() {
       <Drawer open={open} onClose={toggleDrawer(false)}>
         <Box sx={{ width: 300 }} role="presentation">
           <Toolbar>
-            <Typography variant="h5" component="h1" sx={{ flexGrow: 1 }}>
-              Menu
+            <IconButton sx={{mr:'auto', ml:'auto',display:'flex',position:'end'}} variant="contained" color="primary" 
+            onClick={() => {
+              localStorage.setItem("currentMode", theme.palette.mode === 'light' ? 'dark' : 'light')
+              setThemes(theme.palette.mode === 'light' ? 'dark' : 'light')
+            }}>
+                {theme.palette.mode === 'light' ? <Brightness4Icon/> : <Brightness7Icon/>}
+            </IconButton>
+            <Typography  component="h1" sx={{ flexGrow:1 }}>
+              Theme
             </Typography>
             <IconButton onClick={toggleDrawer(false)}>
               <CloseIcon />
@@ -65,7 +74,7 @@ export default function Sidebar() {
           <Divider />
 
           <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
+            sx={{ width: '100%', maxWidth: 360, }}
             component="nav"
             aria-labelledby="nested-list-subheader"
           >
@@ -137,11 +146,10 @@ export default function Sidebar() {
                   </ListItemIcon>
                   <ListItemText primary="Chat" />
                 </ListItemButton>
-              </List>
+              </List>    
             </Collapse>
-
-
           </List>
+
         </Box>
       </Drawer>
     </div>

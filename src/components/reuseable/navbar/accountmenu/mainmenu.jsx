@@ -7,11 +7,11 @@ import EmployeeMenu from "./employeemenu";
 
 
 export default function MainMenu(){
-
+  // to give role ( will delete )
   const role = "";
 
   const sign = () => {
-
+    //Check Role for Sign
     switch(role) {
       case "admin": return <AdminMenu/> ;
       case "employee":   return <EmployeeMenu />; 
