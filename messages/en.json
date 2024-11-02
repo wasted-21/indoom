@@ -1,0 +1,137 @@
+{   
+    
+    "main":{
+        
+    },
+    "header":{
+        "language":"en",
+        "menu":"Menu",
+        "home":"Home",
+        "carinfo":"Car Info",
+        "comparison":"Comparison",
+        "carservices":"Car Services",
+        "dealer":"Dealer",
+        "carshop":"Car Shop",
+        "auction":"Auction",
+        "event":"Events",
+        "services":"Services",
+        "about us":"About us",
+        "support":"Support",
+        "mail":"Mail",
+        "chat":"Chat",
+        "call us": "Call us",
+        "search":"Search"
+    },
+    "footer":{
+        "indoom":"indoom",
+        "subtitle":"We are dedicated to delivering the best service for our customers, proud to be part of your journey in choosing the best for your vehicle. We look forward to serving you with professionalism and expertise, striving to be your trusted destination for everything related to cars and spare parts. Your satisfaction is our goal and passion, and we are committed to quality and trust. Visit us and become part of our family",
+        "link":"Link",
+        "carinfo":"Car Info",
+        "comparison":"Comparison",
+        "carservices":"Car Services",
+        "dealer":"Dealer",
+        "carshop":"Car Shop",
+        "auction":"Auction",
+        "events":"Events",
+
+        "helps":"Helps",
+        "services":"Services",
+        "aboutus":"About us",
+        "support":"Support",
+        "callus": "Call us",
+
+        "socialmedia":"Social Media",
+        "application":"Application",
+        "get it on":"GET IT ON"
+    },
+    "sign":{
+        "signin":"Signin",
+        "signup":"Signup",
+        "next":"Next",
+        "save":"Save",
+        "submit":"Submit",
+        "verification":"Verification",
+        "first name":"First Name",
+        "last name":"Last Name",
+        "email":"Email",
+        "enter your email":"Enter your email",
+        "recovery password":"Recovery Password",
+        "create new password":"Crete new password",
+        "new password":"New Password",
+        "password":"Password",
+        "confirm password":"Confirm Password",
+        "show password":"Show Password",
+        "gender":"Gender",
+        "day":"Day",
+        "month":"Month",
+        "year":"Year",
+        "resend code":"Resend code",
+        "enter code":"Enter code",
+        "enter 6 digit otp code":"The otp has been sent to your email.",
+        "invalid otp please check your mail":"Invalid OTP. Please check your mail.",
+        "forgot password":"Forgot password",
+        "create new account":"Create new account",
+        "other option":"Other Option",
+        "already have account":"Already have account",
+        "continue with google":"Continue with Google",
+        "continue with apple":"Continue with Apple",
+        "terms":"Terms",
+        "i was agree":"I was agree",
+        "terms and conditions":"Terms and conditions",
+        "termspage":{
+            "terms1":""
+        },
+        "genders":{
+            "male":"Male",
+            "female":"Female",
+            "other":"Other"
+        },
+        "months":{
+            "January":"January",
+            "February":"February",
+            "March":"March",
+            "April":"April",
+            "May":"May",
+            "June":"June",
+            "July":"July",
+            "August":"August",
+            "September":"September",
+            "October":"October",
+            "November":"November",
+            "December":"December"
+        }
+    },
+    "homepage":{
+        "homepage":"Home Page",
+        "aboutus":"About us",
+        "aboutus info":"Welcome to our website, your first destination for the best services and the latest products in the automotive field. We are here to make your experience unique and easy, and we always strive to meet your needs in the best possible way. We aspire to be the first choice for our customers when it comes to automotive services. Through a team of specialists, we are committed to providing high quality and competitive prices. We are here to provide an integrated, easy and fast shopping experience. We care about providing the best solutions and services to our customers, and we work hard to develop our services to meet your changing needs.",
+        "read more":"Read More",
+
+        "service":"Services",
+        "whyindoom":{
+            "whyindoom":"Why Indoom",
+            "carinfo title":"Car info",
+            "carinfo subtitle":"Discover detailed specs and features of various car models to help you choose the perfect vehicle for your needs.",
+
+            "comparison title":"Comparison",
+            "comparison subtitle":"Compare car models easily with our tool, reviewing features, performance, and prices to find the best fit for you.",
+
+            "carservices title":"Car Services",
+            "carservices subtitle":"We offer a wide range of car services, including maintenance, repair, detailing, diagnostics, and spare parts, ensuring your vehicle runs smoothly.",
+
+            "dealer title":"Dealer",
+            "dealer subtitle":"Our platform connects you directly with sellers offering a variety of genuine spare parts for different car models, ensuring quality and compatibility.",
+
+            "carshop title":"Car Shop",
+            "carshop subtitle":"Our car shop provides a wide range of services, from repairs and maintenance to spare parts and detailing, ensuring your vehicle's top performance.",
+
+            "events title":"Events",
+            "events subtitle":" The event will showcase the latest in the automotive industry, featuring innovations and updates from around the world, including car launches and exhibitions."
+        },
+        
+        "findcar":"Find Car"
+
+
+    }
+
+}
