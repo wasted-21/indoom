@@ -2,9 +2,9 @@
 import { Box, LinearProgress } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import { useState } from 'react';
-import Stepone from './Stepone'; // الخطوة الأولى
-import Steptwo from './Steptwo'; // الخطوة الثانية
-import Stepotp from './Stepotp'; // خطوة التحقق من OTP
+import Stepone from './stepone.jsx';
+import Steptwo from './steptwo.jsx';
+import Stepotp from './stepotp.jsx';
 
 export default function SignupForm() {
   const theme = useTheme(); //theme
